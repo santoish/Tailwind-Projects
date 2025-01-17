@@ -7,15 +7,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/Web-Agency/css/style.css" />
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[#FBF7EE]">
-    <nav class="flex justify-around">
-        <div class="logo mt-5">
-            <h1 class="font-bold ">Branding</h1>
-        </div>
+<body>
+    <nav>
+        <ul class="flex mt-5">
+            <li>
+                <a href="" class="ml-[5rem] pb-2 text-[#1BC8D3] border-b-2 border-[#1BC8D3] font-semibold">Home</a>
+            </li>
+            <li>
+                <a href="#skills" class="ml-10 hover:pb-2 hover:text-[#1BC8D3] hover:border-b-2 hover:border-[#1BC8D3] font-semibold">Skills</a>
+            </li>
+            <li>
+                <a href="#services" class="ml-10 hover:pb-2 hover:text-[#1BC8D3] hover:border-b-2 hover:border-[#1BC8D3] font-semibold">Services</a>
+            </li>
+            <li>
+                <a href="#works" class="ml-10 hover:pb-2 hover:text-[#1BC8D3] hover:border-b-2 hover:border-[#1BC8D3] font-semibold">Work</a>
+            </li>
+        </ul>
     </nav>
-</body>
 
+    <header class="hero flex lg:flex-row md:flex-col sm:flex-col justify-between items-center mt-28">
+        <div>
+            <img src="/Web-Agency/images/daniel-enders-theiss-9meZsq21IwE-unsplash.jpg">
+        </div>
+        <div class="mr-10 ml-10 md:mt-0 sm:mt-[6rem]">
+            <h1 class="font-bold text-3xl mb-10">
+                Web <span class="text-[#1BC8D3]">Agency</span>
+            </h1>
+            <p class="w-96 mb-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste impedit magni vitae in itaque voluptas rem deleniti ipsa enim.
+            </p>
+            <div class="btn-container">
+                <button class="bg-[#1BC8D3] pt-2 pb-2 pl-10 pr-10 mb-5 mr-5 text-[#FFF] font-semibold">Services</button>
+                <button class="p-2 ml-6 mb-5 text-[#000] font-semibold border-b-2 border-b-black">Learn More</button>
+            </div>
+
+            <div class="card-one flex justify-around md:flex-row sm:flex-col">
+                <div class="flex flex-col justify-center items-center p-2 mr-5 mt-5 bg-[#1BC8D3]">
+                    <h1 class="mt-5">
+                        <span class="font-bold">5 Star </span>Experience
+                    </h1>
+                    <p class="w-60 p-2 text-center">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum labore dignissimos sint iure deserunt ducimus.
+                    </p>
+                </div>
+                <div class="flex flex-col justify-center items-center p-2 mr-5 mt-5 bg-[#1BC8D3]">
+                    <h1 class="mt-5">
+                        Make <span class="font-bold"> Your </span>Offer
+                    </h1>
+                    <p class="w-60 p-2 text-center">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum labore dignissimos sint iure deserunt ducimus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="mt-[10rem] ml-[5rem] flex justify-between items-center md:flex-row sm:flex-col md:text-left sm:text-center">
+        <div>
+            <h1 class="text-5xl font-bold">OUR 
+                <br>
+                <span class="text-[#1BC8D3]">Skills</span>
+            </h1>
+            <p class="w-96 mt-5 mb-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iure molestiae sed sint eveniet perferendis?</p>
+
+            <button class="bg-[#1BC8D3] px-10 py-2 text-white mb-5 mr-5 font-semibold">Services</button>
+        </div>
+        <div class="img">
+            <img src="/Web-Agency/images/Coding.jpg" class="w-[500px]">
+        </div>
+    </section>
+
+    <section id="services" class="mt-40">
+        <h1 class="ml-10 mb-10 text-4xl font-bold">Services</h1>
+        <div class="md:h-[40rem] sm:h-auto md:w-60 sm:w-auto items-center bg-[#292A2B] flex md:flex-nowrap sm:flex-wrap">
+            <div class="one">
+                <div class="relative ml-10 mb-10 w-[300px] bg-[#1BC8D3] top-10 left-20 p-10">
+                    <h1 class="font-bold mb-3">Web <br> Development</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, harum sed ad magni eos fuga a minus sunt mollitia</p>
+                </div>
+                <div class="relative ml-10 mb-10 w-[300px] bg-[#1BC8D3] top-10 left-20 p-10">
+                    <h1 class="font-bold mb-3">Web <br> Design</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, harum sed ad magni eos fuga a minus sunt mollitia</p>
+                </div>
+            </div>
+            <div class="two">
+                <div class="relative ml-10 mb-10 w-[300px] bg-[#292A2B] top-10 left-20 p-10">
+                    <h1 class="font-bold mb-3 text-[#ffffff]">Data <br> Analyst</h1>
+                    <p class="text-[#ffffff]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, harum sed ad magni eos fuga a minus sunt mollitia</p>
+                </div>
+                <div class="relative ml-10 mb-10 w-[300px] bg-[#292A2B] top-10 left-20 p-10">
+                    <h1 class="font-bold mb-3 text-[#ffffff]">Data <br> Scientist</h1>
+                    <p class="text-[#ffffff]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, harum sed ad magni eos fuga a minus sunt mollitia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="mt-36">
+        <h1 class="font-bold text-5xl text-right mb-10 mr-20">Recent Projects</h1>
+        <div class="m-20 justify-around items-center flex flex-wrap mx-auto">
+            <div class="w-60 m-10">
+                <img src="/Web-Agency/images/Setup 3.jpg" alt="">
+                <div class="p-2 bg-[#1BC8D3] text-white font-semibold">Web Design</div>
+            </div>
+            <div class="w-60 m-10">
+                <img src="/Web-Agency/images/Setup 2.jpg" alt="">
+                <div class="p-2 bg-[#1BC8D3] text-white font-semibold">Web Design</div>
+            </div>
+            <div class="w-60 m-10">
+                <img src="/Web-Agency/images/Setup 3.jpg" alt="">
+                <div class="p-2 bg-[#1BC8D3] text-white font-semibold">Web Design</div>
+            </div>
+            <div class="w-60 m-10">
+                <img src="/Web-Agency/images/Setup 2.jpg" alt="">
+                <div class="p-2 bg-[#1BC8D3] text-white font-semibold">Web Design</div>
+            </div>
+            <div class="w-60 m-10">
+                <img src="/Web-Agency/images/Setup 3.jpg" alt="">
+                <div class="p-2 bg-[#1BC8D3] text-white font-semibold">Web Design</div>
+            </div>
+            <div class="w-60 m-10">
+                <img src="/Web-Agency/images/Setup 2.jpg" alt="">
+                <div class="p-2 bg-[#1BC8D3] text-white font-semibold">Web Design</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 mt-5 bg-[#292A2B]">
+        <div class="flex justify-around items-center flex-wrap">
+            <div class="card-one ">
+                <h1 class="font-bold mb-5 text-white capitalize">Site Menu</h1>
+                <p class="text-white">About Us</p>
+                <p class="text-white">Photography</p>
+                <p class="text-white">Lens Index</p>
+            </div>
+            <div class="card-two ">
+                <h1 class="font-bold mb-5 text-white capitalize">Review</h1>
+                <p class="text-white">Reviews Archive</p>
+                <p class="text-white">Camera Reviews</p>
+                <p class="text-white">Lens Reviews</p>
+                <p class="text-white">Other Gear Reviews</p>
+            </div>
+            <div class="card-one ">
+                <h1 class="font-bold mb-5 text-white capitalize">More</h1>
+                <p class="text-white">Contact Us</p>
+                <p class="text-white">Subscrbie</p>
+                <p class="text-white">Workshops</p>
+                <p class="text-white">Support Us</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
